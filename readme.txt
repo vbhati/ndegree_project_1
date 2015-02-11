@@ -1,1 +1,1 @@
-Project 1 "Mockup to Portfolio" - Udacity Nanodegree Program
+Project 1: "Mockup to Portfolio" - Udacity Nanodegree Program
