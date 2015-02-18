@@ -1,0 +1,22 @@
+First Evaluation:
+
+Code Quality Does Not Meet Specifications
+● HTML validates. (validator.w3c.org)
+--> [Comment] Validated HTML (http://validator.w3.org/?doctype=HTML5#validate_by_upload+with_options though file upload feature.
+	Result:	Passed, 1 warning(s) : Using experimental feature: HTML5 Conformance Checker.
+	The validator checked your document with an experimental feature: HTML5 Conformance Checker. This feature has been made available for your convenience, but be aware that it may be unreliable, or not perfectly up to date with the latest development of some cutting-edge technologies. 
+	
+	Validate HTML (https://html5.validator.nu/)
+	Result: The document is valid HTML5 + ARIA + SVG 1.1 + MathML 2.0 (subject to the utter previewness of this service).
+	
+● CSS validates. (jigsaw.w3.org/css­validator)
+--> [Comment] Validated CSS (http://jigsaw.w3.org/css-validator/validator) through file upload feature after doing below fixes.
+● Code does not follow Udacity HTML/CSS Style Guide. (http://goo.gl/0EVzNy)
+	○ Required Formatting Changes​:
+		■ CSS ­ Use Shorthand properties in all possible places. (See: CSS Style Rules­Shorthand Properties.)
+		--> [Comment] Applied shorthand properties where applicable.
+		■ Note​:	If you plan to configure more than one side of an element in margin​ or padding​,use margin and padding instead of the other margin and padding properties such as margin­top, padding­left, etc. margin ​and padding​ are more efficient for the browser to compute, speeding up your browser rendering times.
+		--> [Comment] Most of the element uses only one side configuration, that is why I've used margin-(side) instead of margin. Is this recommended where only one side needs to be configured?
+	○ Suggested Formatting Changes​:
+		■ CSS ­ Use leading zeros for values in the code. (See: CSS Style Rules­Leading 0s.). Zero is an absolute number and has not unit of measurement.
+		--> [Comment] Removed trailing zero after decimal.
